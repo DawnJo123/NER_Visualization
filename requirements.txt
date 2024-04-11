@@ -1,3 +1,2 @@
 spacy
-newspaper
-en_core_web_sm
+newspaper3k
