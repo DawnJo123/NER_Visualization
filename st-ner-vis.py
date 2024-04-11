@@ -2,7 +2,9 @@ import streamlit as st
 import spacy
 from spacy import displacy
 import en_core_web_sm
-nlp = en_core_web_sm.load()
+# import spacy
+nlp = spacy.load("en_core_web_sm")
+# nlp = en_core_web_sm.load()
 # from pprint import pprint
 from newspaper import Article
 
