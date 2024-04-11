@@ -1,2 +1,2 @@
-spacy
+spacy=3.7.4
 newspaper3k
