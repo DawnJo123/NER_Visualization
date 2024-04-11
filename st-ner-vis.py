@@ -14,7 +14,7 @@ button=st.button("SUBMIT")
 
 def nerfunc(inp):
      nlp = spacy.load('en_core_web_sm')
-     doc = nlp(text)
+     doc = nlp(inp)
      ent_html = displacy.render(doc, style="ent", jupyter=False)
      st.markdown(ent_html, unsafe_allow_html=True)
    
